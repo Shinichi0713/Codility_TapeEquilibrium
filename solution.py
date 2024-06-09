@@ -1,4 +1,6 @@
 def solution(A):
+    if len(A) <= 1:
+        return 0
     total_sum = sum(A)
     left_sum = 0
     min_diff = float('inf')
